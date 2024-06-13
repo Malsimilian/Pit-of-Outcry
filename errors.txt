@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 2: end of line expected.
-    scene bg menu
-             ^
+File "game/script.rpy", line 14: expected '=' not found.
+    define A('Августа', color='#660806')
+            ^
+
+File "game/script.rpy", line 15: expected '=' not found.
+    define U('???', color='#000000')
+            ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed Jun 12 13:30:22 2024
+Thu Jun 13 16:09:12 2024
