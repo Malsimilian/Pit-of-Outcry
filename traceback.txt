@@ -9,7 +9,7 @@ While running game code:
     python hide:
   File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
     renpy.load(renpy.session["_reload_slot"])
-AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045c7220>
+AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045e6220>
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -34,9 +34,9 @@ Full traceback:
     return up.load()
   File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\compat\pickle.py", line 93, in find_class
     return super().find_class(module, name)
-AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045c7220>
+AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045e6220>
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Test1 1.0
-Thu Jun 13 18:59:46 2024
+Fri Jun 14 00:39:00 2024
