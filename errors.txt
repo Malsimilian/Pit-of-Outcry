@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 14: expected '=' not found.
-    define A('Августа', color='#660806')
-            ^
-
-File "game/script.rpy", line 15: expected '=' not found.
-    define U('???', color='#000000')
-            ^
+File "game/script.rpy", line 185: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    scene bg depths_of_dungeon
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Thu Jun 13 16:09:12 2024
+Thu Jun 13 18:56:54 2024
