@@ -3,6 +3,7 @@
         name = renpy.input("Как вас зовут?")
 
         ggname = name.strip().capitalize() or "[ggname]"
+        ggname = 'Анна лх'
 
     define gg = Character('[ggname]', color="#c8ffc8")
     define a = Character('Августа', color='#660806')
