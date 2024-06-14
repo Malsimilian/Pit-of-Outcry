@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 114: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg dark_corridors
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    :queue music "codex" 
     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri Jun 14 19:34:11 2024
+Sat Jun 15 00:01:12 2024

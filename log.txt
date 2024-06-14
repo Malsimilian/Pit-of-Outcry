@@ -1,101 +1,561 @@
-2024-06-14 16:33:20 UTC
-Windows-10-10.0.22631
+2024-06-14 20:58:56 UTC
+Windows-10-10.0.19045
 Ren'Py 8.2.1.24030407
 
-Early init took 0.11s
-Loading error handling took 0.10s
-Loading script took 1.67s
-Loading save slot metadata took 0.13s
+Early init took 0.13s
+Loading error handling took 0.05s
+Loading script took 0.45s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 
-File "game/script.rpy", line 114: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg dark_corridors
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    queue music "codex" 
     ^
-
-File "game/script.rpy", line 141: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-(Perhaps you left out a ' at the end of the first line.)
-    'Путь прерывает удар лицом о что-то широкое, теплое. Похоже на мягкий зефир, или... 
-    ^
-                живот огромной твари, от которой разило псиной и трупами. На голову капает хлюпающая горяченная жижа. КРОВЬ?'
-DPI scale factor: 1.250000
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.51s
+Interface start took 0.21s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1280, 1024)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon(TM) Graphics'
-Version: b'4.6.0 Compatibility Profile Context 23.8.2.230810'
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 49.34s
-Loading error handling took 0.08s
-Loading script took 1.61s
+Early init took 25.02s
+Loading error handling took 0.03s
+Loading script took 0.19s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 
-File "game/script.rpy", line 114: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg dark_corridors
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    queue music "codex" 
     ^
-DPI scale factor: 1.250000
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.37s
+Interface start took 0.15s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1280, 1024)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon(TM) Graphics'
-Version: b'4.6.0 Compatibility Profile Context 23.8.2.230810'
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 71.90s
-Loading error handling took 0.09s
-Loading script took 1.55s
-Loading save slot metadata took 0.03s
+Early init took 26.38s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.12s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32.61s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 48.35s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 59: expected end of line
+    play music "bridge" fadeout 1:
+                                 ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 62.36s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 86.03s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    : queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 91.22s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    : queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 100.40s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    : queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 101.19s
+Loading error handling took 0.05s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    : queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 109.02s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    : queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 135.86s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    :queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 136.62s
+Loading error handling took 0.06s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 60: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    :queue music "codex" 
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1280, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 148.81s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Maksim\\AppData\\Roaming/RenPy/backups\\Pit-of-Outcry':
-Dump and make backups took 0.09s
+Backing up script files to 'C:\\Users\\папа\\AppData\\Roaming/RenPy/backups\\Pit-of-Outcry':
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.09s
-DPI scale factor: 1.250000
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.08s
+Init translation took 0.09s
 Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.16s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.21s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.27s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1280, 1024)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon(TM) Graphics'
-Version: b'4.6.0 Compatibility Profile Context 23.8.2.230810'
+Renderer: b'AMD Radeon R7 200 Series'
+Version: b'4.6.13596 Compatibility Profile Context 20.10.35.02 27.20.1034.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1280, 961) drawable=(1280, 961)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1242, in execute
+    statement_name("scene")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 52, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'bridge'.
+
+While running game code:
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'bridge'.
+While handling exception:
+Traceback (most recent call last):
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\execution.py", line 596, in run
+    node.execute()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1242, in execute
+    statement_name("scene")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 52, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'bridge'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\error.py", line 140, in report_exception
+    renpy.game.invoke_in_new_context(
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\game.py", line 293, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\error.py", line 48, in call_exception_screen
+    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'codex'.
+
+Full traceback:
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+    run(restart)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\main.py", line 145, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\execution.py", line 955, in run_context
+    context.run()
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1242, in execute
+    statement_name("scene")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 52, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'bridge'.
+
+While running game code:
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'bridge'.

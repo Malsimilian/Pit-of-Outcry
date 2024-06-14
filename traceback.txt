@@ -1,42 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 531, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045c7220>
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'bridge'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
-    python hide:
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 531, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loadsave.py", line 828, in load
-    roots, log = loads(log_data)
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\compat\pickle.py", line 100, in loads
-    return load(io.BytesIO(s))
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\compat\pickle.py", line 97, in load
-    return up.load()
-  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\compat\pickle.py", line 93, in find_class
-    return super().find_class(module, name)
-AttributeError: Can't get attribute 'add_ending' on <renpy.python.StoreModule object at 0x00000000045c7220>
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+    run(restart)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\main.py", line 145, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\execution.py", line 955, in run_context
+    context.run()
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 61, in script
+    scene bg dark_corridors
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 1242, in execute
+    statement_name("scene")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\ast.py", line 52, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 119, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 104, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\папа\Desktop\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'bridge'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Test1 1.0
-Fri Jun 14 01:43:34 2024
+Sat Jun 15 00:01:35 2024
