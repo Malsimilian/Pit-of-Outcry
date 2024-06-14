@@ -1,16 +1,9 @@
 ﻿label start:
-    $ endings = []
-    python:
-        def add_ending(text, is_good):
-            ending = (text, is_good)
-            if ending not in endings:
-                endings.append(ending)
-                return 'конец)'
     python:
         name = renpy.input("Как вас зовут?")
 
         ggname = name.strip().capitalize() or "[ggname]"
-        
+
     define gg = Character('[ggname]', color="#c8ffc8")
     define a = Character('Августа', color='#660806')
     define u = Character('???', color='#000000')
@@ -46,9 +39,9 @@ label location1:
     menu:
         "Остаться с собакой":
             
-            "[ggname] погиб от удушения во время секса. (Плохая концовка) "
+            "[ggname] погиб от удушения во время секса."
             
-            "[add_ending(text='[ggname] погиб от удушения во время секса.', is_good=False)]"
+            "Конец (Плохая концовка)"
             
             return
 
@@ -160,7 +153,7 @@ label lonely_rooms:
                     
                     'Летучие мыши поедают заживо обоих с пронзительным писком.'
                     
-                    "[add_ending(text= 'Летучие мыши поедают заживо обоих с пронзительным писком.', is_good=False)]"
+                    "Конец (Плохая концовка)"
                     
                     return
 
@@ -185,7 +178,7 @@ label depths_of_dungeon:
     
     'Августа находит через пару часов растерзанного путника.'
     
-    "[add_ending(text= 'Августа находит через пару часов растерзанного путника.', is_good=False)]"
+    "Конец (Плохая концовка)"
     return
 
 label fight:
@@ -210,7 +203,7 @@ label fight:
             
             'Героев медленно и мучительно съели заживо.' 
             
-            "[add_ending(text= 'Героев медленно и мучительно съели заживо.' , is_good=False)]"
+            "Конец (Плохая концовка)"
             
             return
 
@@ -222,7 +215,7 @@ label fight:
             
             'Августе разбили голову о камни...по грунту вытекают кровь и мягкие вялые мозги.'
             
-            "[add_ending(text= 'Августе разбили голову о камни, по грунту вытекают кровь и мягкие вялые мозги.', is_good=False)]"
+            "Конец (Плохая концовка)"
             
             return
 
@@ -241,7 +234,7 @@ label fight:
             
             'Как свет в конце туннеля, экая благодать...'
             
-            "[add_ending(text= 'Как свет в конце туннеля, экая благодать...', is_good=False)]"
+            "Конец (Плохая концовка)"
             
             return
 
@@ -256,7 +249,7 @@ label fight:
             
             'Персонажи умерли от кровопотери.'
             
-            "[add_ending(text= 'Персонажи умерли от кровопотери.', is_good=False)]"
+            "Конец (Хорошая концовка)"
             
             return
 
@@ -284,7 +277,7 @@ label Hide:
             
             '[ggname] находит свой листок…' 
             
-            "[add_ending(text= '[ggname] находит свой листок…', is_good=False)]"
+            "Конец(Хорошая концовка)"
             
             return
 
@@ -295,6 +288,6 @@ label Hide:
             
             'Летучие мыши поедают заживо троицу с пронзительным писком.'
             
-            "[add_ending(text=  'Летучие мыши поедают заживо троицу с пронзительным писком.', is_good=False)]"
+            "Конец(Хорошая концовка)"
             
             return
