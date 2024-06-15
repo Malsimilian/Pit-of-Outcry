@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 191: Indentation mismatch.
+File "game/script.rpy", line 290: expected end of line
+    stop sound "audio/child.mp3"
+               ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Jun 16 00:04:40 2024
+Sun Jun 16 01:13:09 2024
