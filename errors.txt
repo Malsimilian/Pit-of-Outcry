@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 114: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg dark_corridors
-    ^
+File "game/script.rpy", line 191: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri Jun 14 19:34:11 2024
+Sun Jun 16 00:04:40 2024
