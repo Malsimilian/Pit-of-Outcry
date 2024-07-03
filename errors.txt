@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 290: expected end of line
-    stop sound "audio/child.mp3"
-               ^
+File "game/script.rpy", line 360: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    jump eye_death:
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Jun 16 01:13:09 2024
+Wed Jul  3 18:00:50 2024
