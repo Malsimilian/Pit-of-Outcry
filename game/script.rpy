@@ -424,7 +424,7 @@ label Hide:
     ' … И тут показывается странный темноволосый ребенок, от которого веет холодом. 
     Будто все северные ветра сошлись клином и продули нас до косточек.'
 
-    stop sound Ы
+    stop sound 
     hide augusta idle 
 
     show augusta idle at right
