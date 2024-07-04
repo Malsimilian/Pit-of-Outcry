@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 427: expected end of line
-    stop sound Ы
-               ^
+File "game/script.rpy", line 681: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    scene bg darkness
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed Jul  3 21:02:00 2024
+Thu Jul  4 17:50:00 2024
