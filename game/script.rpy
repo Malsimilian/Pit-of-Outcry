@@ -58,7 +58,7 @@ label location1:
     menu:
         "Остаться с собакой":
             
-            "[ggname] погибает от удушения во время секса."
+            "[ggname] погибает от удушья во время секса."
             
             'Концовка {color=#e40f20}"ЗООФИЛ"'
             
@@ -66,7 +66,7 @@ label location1:
 
         "Идти дальше":
             
-            '[ggname] пинает мертвое животное и нервно смеется.'
+            '[ggname] пинает мертвое животное и нервозно смеется.'
 
             hide dog justdied
 
@@ -530,7 +530,7 @@ label child:
 
             scene bg darkness with fade
 
-            '[ggname] разорвало в клочья на всю пещеру.'
+            '[ggname] разрывает в клочья на всю пещеру.'
             
             'Концовка {color=#e40f20}"ЗАВЕТНЫЕ СЛОВА"'
             
@@ -843,8 +843,12 @@ label child_killed_by_frode:
 
     scene bg darkness with fade
 
-    stop audio 
     stop sound
+    stop audio 
+
+    jump free
+
+label free:
 
     play sound 'audio/run.mp3' 
 
