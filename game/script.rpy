@@ -177,6 +177,10 @@ label lonely_rooms:
     
     u '...'
 
+    hide augusta idle
+
+    show augusta smile idle with fade
+
     'Лишь через пару минут инвалид напрягает свои мозги и со странной ухмылкой смотрит на путешественника. '
 
     'Приближается на полусогнутых, подергивая раскрытым помутневшим глазом. Явно стоило ожидать агонию в лице, страдания.
@@ -185,6 +189,10 @@ label lonely_rooms:
     'Точно ли здорова она?..'
 
     gg 'А тебе не больно?..'
+
+    hide augusta smile idle
+
+    show augusta angry idle with fade
 
     'Вырывается из уст вместе с нервным глотком кома в горле под конец. Существо улыбается гораздо шире, выскакивают мимические морщины...'
     hide augusta idle            
@@ -204,7 +212,7 @@ label lonely_rooms:
             jump depths_of_dungeon
 
         'Заговорить':
-            show augusta idle 
+            show augusta angry idle with fade
 
             gg 'Не хочешь, чтобы тебе помогли найти выход отсюда? Мне кажется, тебе здесь не место.'
 
@@ -601,9 +609,8 @@ label fight_frode_child:
     
     'Торопиться оказалось незачем – исполин уже вышел из тьмы и стащил с себя тонкую вуаль темных сальных волос.'
 
-    show monster idle with fade
+    show monster annoy idle with fade
 
-    
     'Он с хрипом выдыхает волну горяченного спертого воздуха и жмурит слепые очи.' 
 
     'Взмахивает хвостом и уступает первый удар парочке… стало быть, заскучал уже в этой пещере.
@@ -644,7 +651,7 @@ label fight_frode_child:
             
         'Ударить в глаз':
 
-            show monster idle 
+            show monster annoy idle
             
             '[ggname] не дотягивается и бьет наотмашь. Монстр огорченно вздыхает и с хрустом разминает свои мускулы…'
             
@@ -670,7 +677,11 @@ label fight_frode_child:
 
             play sound "audio/dead_wolf.mp3"
 
+            show monster annoy idle with fade
+
             'Девушка следует примеру и метает еще один. Слепой монстр убегает в глубины подземелья.'
+
+            hide monster annoy idle with easeoutbottom
 
             jump child_killed_by_frode
 
