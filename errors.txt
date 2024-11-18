@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 175: expected statement.
-    at left 
-    ^
+File "game/script.rpy", line 59: expected end of line
+    window hide with dissolve
+                ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed Jul 17 16:51:37 2024
+Sun Nov 17 19:39:27 2024

@@ -18,23 +18,31 @@ define config.name = _("Pit of OutCry")
 ## Определяет, показывать ли заголовок, данный выше, на экране главного меню.
 ## Установите на False, чтобы спрятать заголовок.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## Версия игры.
 
-define config.version = "1.1"
-
+define config.version = "1.1.5"
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
 define gui.about = _p("""
-Авторы: AnySphinx, PPPPPoint
+Автор ВН: AnySphinx
 
-Отдельное спасибо за соавторство в сценарии поклоннику Анны. 
+Авторы некоторых персонажей:
 
-Музыка и звуки взяты с общедоступных сайтов: https://zvukipro.com/, https://uppbeat.io/, https://elements.envato.com/. 
+Азазель (child) - teloli
+
+Горд Первый (soldier) - Павел Сундуков
+
+Отдельная благодарность Maksan и поклоннику Анны. 
+
+Музыка и звуки взяты с общедоступных сайтов: zvukipro.com,
+uppbeat.io, elements.envato.com, zvukogram.com. 
+
+НАЙТИ АВТОРА ВИЗУАЛЬНОЙ НОВЕЛЛЫ МОЖНО ТУТ: @anysphinx.bsky.social
 """)
 
 
@@ -67,7 +75,7 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "menu.ogg"
 
 
 ## Переходы ####################################################################

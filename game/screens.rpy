@@ -356,6 +356,10 @@ screen main_menu():
 
     add gui.main_menu_background
 
+    imagemap:
+        alpha False
+        ground "menu_slideshow"
+
     ## Эта пустая рамка затеняет главное меню.
     frame:
         style "main_menu_frame"
